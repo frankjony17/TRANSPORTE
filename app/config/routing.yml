@@ -1,0 +1,63 @@
+
+nomenclador:
+    resource: "@NomencladorBundle/Controller/"
+    type:     annotation
+    prefix:   /all/nomenclador/
+    schemes: [http]
+
+circulacion_eventual:
+    resource: "@CirculacionEventualBundle/Controller/"
+    type:     annotation
+    prefix:   /transporte/circulacion/eventual/
+    schemes: [http]
+
+control_parqueo:
+    resource: "@ControlParqueoBundle/Controller/"
+    type:     annotation
+    prefix:   /transporte/control/parqueo/
+    schemes: [http]
+
+transporte:
+    resource: "@TransporteBundle/Controller/"
+    type:     annotation
+    prefix:   /transporte/
+    schemes: [http]
+
+parqueo_vehiculo:
+    resource: "@ParqueoVehiculoBundle/Controller/"
+    type:     annotation
+    prefix:   /transporte/parqueo/
+    schemes: [http]
+
+personal_horario_extralaboral:
+    resource: "@PersonalHorarioExtralaboralBundle/Controller/"
+    type:     annotation
+    prefix:   /transporte/horario/extralaboral/
+    schemes: [http]
+
+util:
+    resource: "@cURLBundle/Controller/"
+    type:     annotation
+    prefix:   /util/
+    schemes: [http]
+
+#-AdminBundle------------------------------------------------------------------#
+admin_app:
+    resource: "@AdminBundle/Controller/AdminController.php"
+    type:     annotation
+    prefix:   /admin/
+    schemes: [http]
+
+#schemes: [https]
+admin_secured:
+    resource: "@AdminBundle/Controller/SecuredController.php"
+    type:     annotation
+    prefix:   /secured/
+    schemes: [http]
+    
+admin_portal:
+    resource: "@AdminBundle/Controller/PortalController.php"
+    type:     annotation
+    prefix:   /
+    schemes: [http]  
+

@@ -1,0 +1,215 @@
+
+/**MENU*/
+.menu-nomenclador {
+    background-image : url(/images/transporte/menu-nomenclador.png) !important;
+}
+.menu-parqueo {
+    background-image : url(/images/transporte/menu-parqueo.png) !important;
+}
+.menu-eventual {
+    background-image : url(/images/transporte/eventual.png) !important;
+}
+.menu-planificacion {
+    background-image : url(/images/transporte/menu-planificacion.png) !important;
+}
+/**MENU-ICONS**/
+.fa-pencil-square-o:before {
+    font-size: 17px;
+    position: relative;
+    top: -1px;
+}
+.fa-list-ul:before {
+    font-size: 15px;
+}
+.fa-home:before {
+    font-size: 18px;
+    position: relative;
+    top: -1px;
+}
+.fa-gear:before {
+    font-size: 17px;
+    position: relative;
+    top: -1px;
+}
+.fa-power-off:before {
+    font-size: 15px;
+}
+/**MENU-ICONS-TECNICO**/
+.fa-list-alt:before {
+    font-size: 15px;
+}
+.fa-files-o:before {
+    font-size: 15px;
+    position: relative;
+    top: -1px;
+}
+.fa-clone:before {
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+}
+.fa-building:before {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+.fa-building-o:before {
+    font-size: 14px;
+    position: relative;
+    top: 4px;
+}
+.fa-file:before {
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+}
+.fa-file-o:before {
+    font-size: 13px;
+    position: relative;
+    top: 4px;
+}
+
+
+/**MENU-ITEMS**/
+.matricula {
+    background-image : url(/images/transporte/matricula.png) !important;
+}
+.vehiculo {
+    background-image : url(/images/transporte/vehiculo.png) !important;
+}
+.chofer {
+    background-image : url(/images/transporte/chofer.png) !important;
+}
+.area-parqueo {
+    background-image : url(/images/transporte/area-parqueo.png) !important;
+}
+.planificacion {
+    background-image : url(/images/transporte/planificacion.png) !important;
+}
+.conrol-diario {
+    background-image : url(/images/transporte/conrol-diario.png) !important;
+}
+.circulacion-eventual {
+    background-image : url(/images/transporte/circulacion-eventual.png) !important;
+}
+.parqueo-eventual {
+    background-image : url(/images/transporte/parqueo-eventual.png) !important;
+}
+.situacion-operativa {
+    background-image : url(/images/transporte/situacion-operativa.png) !important;
+}
+.chofer-vehiculo {
+    background-image : url(/images/transporte/chofer-vehiculo.png) !important;
+}
+/**MENU-ITEMS-ICONS**/
+.fa-user:before {
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+.fa-newspaper-o:before {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+.fa-barcode:before {
+    font-size: 14px;
+    position: relative;
+    top: 6px;
+}
+.fa-automobile:before {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+.fa-flag-checkered:before {
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+}
+.fa-paste:before {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+.fa-truck:before {
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+}
+.fa-hospital-o:before {
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+.fa-medium:before {
+    font-size: 14px;
+    position: relative;
+    top: 6px;
+}
+.fa-male:before {
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+}
+
+
+
+/**Grid-Form**/
+.change {
+    background-image : url(/images/transporte/change.png) !important;
+}
+.trash {
+    background-image : url(/images/transporte/trash.png) !important;
+}
+.so {
+    background-image : url(/images/transporte/so.png) !important;
+}
+.all-pending {
+    background-image : url(/images/transporte/all-pending.png) !important;
+}
+.not-pending {
+    background-image : url(/images/transporte/not-pending.png) !important;
+}
+.all {
+    background-image : url(/images/transporte/all.png) !important;
+}
+.config {
+    background-image : url(/images/transporte/config.png) !important;
+}
+.aprobar {
+    background-image : url(/images/transporte/shared.png) !important;
+}
+.change-id {
+    background-image : url(/images/transporte/change-id.png) !important;
+}
+/**Grid**Topbar**/
+.fa-pencil-square {
+    font-size: 16px;
+    position: relative;
+    top: -1px;
+}
+.fa-leanpub:before {
+    font-size: 14px;
+}
+/*Articulos de rbar*/
+.fa-save:before {
+    content: "\f000";
+    color: #157fcc;
+    font-size: 16px;
+}
+.fa-question-circle:before {
+    content: "\f000";
+    color: red;
+    font-size: 18px;
+}
+/**Form**/
+.fa-trash:before {
+    font-size: 16px;
+}
+.fa-ban:before {
+    font-size: 15px;
+}
+.fa-check-circle-o:before {
+    font-size: 16px;
+}

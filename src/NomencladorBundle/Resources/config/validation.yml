@@ -1,0 +1,17 @@
+NomencladorBundle\Entity\Area:
+    constraints:
+        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: [nombre, unidadOrganizativa]
+        
+NomencladorBundle\Entity\Cargo:
+    constraints:
+        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: nombre
+#        
+#NomencladorBundle\Entity\Departamento:
+#    constraints:
+#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: nombre
+#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: acronimo
+#        
+#NomencladorBundle\Entity\Trabajador:
+#    constraints:
+#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: ci
+#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: [nombre, apellidos]

@@ -1,0 +1,18 @@
+usuario = "{{ session.get('nombre_apellidos_trabajador') | trim(' ') }}";
+unidadorganizativa = "{{ session.get('nombre_unidad_organizativa') }}";
+entorno = "{{ session.get('entorno') }}";
+aplicaciones = [];
+
+{% if is_granted('ROLE_ADMIN') %}
+    aplicaciones.push({'text': 'Administración', 'iconCls': 'fa fa-wrench', 'id': 'admin-app-id'});
+{% endif %}
+
+{% if is_granted('ROLE_ESPECIALISTA_TRANSPORTE') %}
+    aplicaciones.push({'text': 'Transporte (Especialista)', 'iconCls': 'transporte-app-especialista', 'id': 'transporte-app-especialista-id'});
+{% endif %}
+{% if is_granted('ROLE_PLANIFICADOR_TRANSPORTE') %}
+    aplicaciones.push({'text': 'Transporte (Planificador)', 'iconCls': 'transporte-app-planificador', 'id': 'transporte-app-planificador-id'});
+{% endif %}
+{% if is_granted('ROLE_TECNICO_TRANSPORTE') %}
+    aplicaciones.push({'text': 'Transporte (Operativo de Guardia)', 'iconCls': 'fa fa-tachometer', 'id': 'transporte-app-tecnico-id'});
+{% endif %}

@@ -1,0 +1,10 @@
+services:
+    cdt.util:
+        class: Util\cURLBundle\Services\Util
+        
+    cdt.logger:
+        class: Util\cURLBundle\Services\Logger
+
+    cdt.email:
+        class: Util\cURLBundle\Services\Email
+        arguments: ['@mailer']

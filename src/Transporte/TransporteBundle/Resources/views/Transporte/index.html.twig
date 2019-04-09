@@ -1,0 +1,54 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}TRANSPORTE-ETECSA{% endblock %}
+
+{% block favicon %}{{ asset('favicon.ico') }}{% endblock %}
+
+{% block extjs %} {% include "::ext-6.0.1.html.twig" %} {% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/transporte/index.css') }}" />
+{% endblock %}
+    
+{% block javascripts %}
+<script>
+{% include "AdminBundle:Admin:globalScript.html.twig" %}
+    
+Ext.application({
+    name: 'CDT',
+    appFolder: '/js/app',
+
+    controllers: [
+        {% if modulo == 'especialista' %}
+        "transporte.EspecialistaViewportController",
+        "transporte.especialista.ChoferController",
+        "transporte.especialista.ChoferVehiculoController",
+        "transporte.especialista.MatriculaController",
+        "transporte.especialista.VehiculoController",
+        "transporte.especialista.AreaParqueoController",
+        "transporte.especialista.VehiculoTipoController",
+        "transporte.especialista.MarcaController",
+        "transporte.especialista.ModeloController",
+        "transporte.especialista.SituacionOperativaController",
+        "transporte.especialista.AgenteController",
+        {% elseif modulo == 'tecnico' %}
+            "transporte.TecnicoViewportController",
+            "transporte.tecnico.ControlTransporteController",
+            "transporte.tecnico.CirculacionEventualController",
+            "transporte.tecnico.ParqueoVehiculoController",
+        {% endif %}
+    ],
+
+    launch : function()
+    {
+        {% if modulo == 'especialista' %}
+            Ext.create('CDT.view.transporte.EspecialistaViewport');
+        {% elseif modulo == 'tecnico' %}
+            Ext.create('CDT.view.transporte.TecnicoViewport');
+        {% else %}
+            location.href = entorno+'/secured/logout';
+        {% endif %}
+    }
+});
+</script>
+{% endblock %}
