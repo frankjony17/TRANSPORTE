@@ -106,12 +106,6 @@ Ext.define('CDT.controller.transporte.EspecialistaViewportController', {
         this.addComponent(Ext.create('CDT.view.transporte.especialista.agente.AgenteGrid'));
         this.updateStatusBar('<b>Gestionar > Agente</b>');
     },
-//    // Menu Nomenclador, button chofer.
-//    planificacionMenuClick: function ()
-//    {
-//        this.addComponent(Ext.create('CDT.view.transporte.especialista.planificacion.PlanificacionGrid'));
-//        this.updateStatusBar('<b>Gestionar > Planificación</b>');
-//    },
     // Add componente en el panel.
     addComponent: function (cmp)
     {

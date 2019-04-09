@@ -2,12 +2,6 @@
 Ext.define('CDT.controller.transporte.especialista.VehiculoController', {
     extend: 'Ext.app.Controller',
 
-    // views: [
-    //     'transporte.especialista.vehiculo.VehiculoGrid',
-    //     'transporte.especialista.vehiculo.VehiculoForm',
-    //     'transporte.especialista.vehiculo.SitOpeVehiculoForm'
-    // ],
-
     control: {
             'vehiculoGrid': {
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
@@ -22,9 +16,9 @@ Ext.define('CDT.controller.transporte.especialista.VehiculoController', {
             'vehiculoGrid button[iconCls=fa fa-pencil]': {
                 click: "confirmEdit"
             },
-            'vehiculoGrid button[iconCls=fa fa-leanpub]': {
-               click: "validateSituacionOperativa"
-            },
+             'vehiculoGrid button[iconCls=fa fa-leanpub]': {
+                click: "validateSituacionOperativa"
+             },
             // Formularios
             'vehiculoForm': {
                 afterrender: "afterRenderWin"
@@ -36,14 +30,14 @@ Ext.define('CDT.controller.transporte.especialista.VehiculoController', {
                 click: "validateForm"
             },
             'vehiculoForm combobox[name=area]': {
-                select: function (cmb) { me.areaId = cmb.value; }
+                select: function (cmb) { var me = this; me.areaId = cmb.value; }
             },
             'vehiculoForm combobox[name=areaParqueo]': {
-                select: function (cmb) { me.areaParqueoId = cmb.value; }
+                select: function (cmb) { var me = this; me.areaParqueoId = cmb.value; }
             },
-            '#edit-id': {
-               click: "editSituacionOperativa"
-            }
+             '#edit-id': {
+                click: "editSituacionOperativa"
+             }
     },
     loadStore: function () { var me = this; me.store.load(); },
     // Mostrar Windows vehiculo.
@@ -205,62 +199,62 @@ Ext.define('CDT.controller.transporte.especialista.VehiculoController', {
             }
         }); 
     },    
-    // Verificar que se ha seleccionado un registro.
-    validateSituacionOperativa: function(btn)
-    {   
-        var me = this, grid = btn.up('grid');
+     // Verificar que se ha seleccionado un registro.
+     validateSituacionOperativa: function(btn)
+     {
+         var me = this, grid = btn.up('grid');
 
-        if (grid.selModel.getCount() > 0) {
-            btn.setDisabled(true);
-            me.showSituacionOperativa(btn, grid);
-        } else {
-            Ext.ex.MessageBox('Atención', 'Seleccione el, ó los registro que desee editar.', 'question');
-        }
-    },
-    // Mostrar ventana Situacion Operativa 
-    showSituacionOperativa: function (btn, grid)
-    {   
-       var ids = [], i;
+         if (grid.selModel.getCount() > 0) {
+             btn.setDisabled(true);
+             me.showSituacionOperativa(btn, grid);
+         } else {
+             Ext.ex.MessageBox('Atención', 'Seleccione el, ó los registro que desee editar.', 'question');
+         }
+     },
+     // Mostrar ventana Situacion Operativa
+     showSituacionOperativa: function (btn, grid)
+     {
+        var ids = [], i;
 
-        for(i = 0; i < grid.selModel.getCount(); i++)
-        {
-            ids.push(grid.selModel.getSelection()[i].get('id'));
-        }
-        Ext.create('CDT.view.transporte.especialista.vehiculo.SitOpeVehiculoForm',{
-            btn: btn,
-            store: grid.store,
-            vehiculoids: Ext.encode(ids)
-        });
-    },
-    //Editar datos de situacion operativa 
-    editSituacionOperativa: function (btn)
-    {   
-        var win = btn.up('window');
+         for(i = 0; i < grid.selModel.getCount(); i++)
+         {
+             ids.push(grid.selModel.getSelection()[i].get('id'));
+         }
+         Ext.create('CDT.view.transporte.especialista.vehiculo.SitOpeVehiculoForm',{
+             btn: btn,
+             store: grid.store,
+             vehiculoids: Ext.encode(ids)
+         });
+     },
+     //Editar datos de situacion operativa
+     editSituacionOperativa: function (btn)
+     {
+         var win = btn.up('window');
        
-        Ext.Ajax.request({
-            waitMsg: 'Please wait...',
-            url: '../transporte/vehiculo/edit_situacion_operativa',
-            params: {
-                Ids  : win.vehiculoids,
-                IdSO : win.down('[name=so]').getValue()
-            },
-            success: function(response){
-                switch(response.responseText){
-                    case '':
-                        win.btn.setDisabled(false);
-                        win.store.load();
-                        win.close();
-                        break;
-                    default:
-                        Ext.ex.MessageBox('Error', response.responseText, 'error');
-                        break;
-                }
-            },
-            failure: function(){
-                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
-            }
-        }); 
-    },
+         Ext.Ajax.request({
+             waitMsg: 'Please wait...',
+             url: '../transporte/vehiculo/edit_situacion_operativa',
+             params: {
+                 Ids  : win.vehiculoids,
+                 IdSO : win.down('[name=so]').getValue()
+             },
+             success: function(response){
+                 switch(response.responseText){
+                     case '':
+                         win.btn.setDisabled(false);
+                         win.store.load();
+                         win.close();
+                         break;
+                     default:
+                         Ext.ex.MessageBox('Error', response.responseText, 'error');
+                         break;
+                 }
+             },
+             failure: function(){
+                 Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
+             }
+         });
+     },
 
     //Confirmar antes de eliminar datos... 
     confirmRemuve: function(btn)

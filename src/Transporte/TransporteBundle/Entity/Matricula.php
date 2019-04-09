@@ -192,7 +192,7 @@ class Matricula
             'chapa' => $this->chapa,
             'chapaVieja' => $this->chapaVieja,
             'circulacion' => $this->circulacion,
-            'vencimiento' => $this->vencimiento ? date_format($this->vencimiento, 'Y-m-d') : "No definida."
+            'vencimiento' => $this->vencimiento ? date_format($this->vencimiento, 'd-m-Y') : "No definida."
         );
     }
 }

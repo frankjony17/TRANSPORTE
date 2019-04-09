@@ -22,7 +22,8 @@ class AppKernel extends Kernel
             new \Transporte\ControlParqueoBundle\ControlParqueoBundle(),
             new \Transporte\ParqueoVehiculoBundle\ParqueoVehiculoBundle(),
             new \Transporte\TransporteBundle\TransporteBundle(),
-            new \Util\cURLBundle\cURLBundle()
+            new \Util\cURLBundle\cURLBundle(),
+            new Knp\Bundle\SnappyBundle\KnpSnappyBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

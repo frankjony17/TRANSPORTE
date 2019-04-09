@@ -1,7 +1,7 @@
 
-Ext.define('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid', {
+Ext.define('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoPermanenteGrid', {
     extend : 'Ext.grid.Panel',
-    xtype  : 'parqueovehiculoGrid',
+    xtype  : 'parqueovehiculopermanenteGrid',
 
     width: '100%',
     border: false,
@@ -21,7 +21,7 @@ Ext.define('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid', {
 
         me.myData = [];
         // Store
-        //me.store = Ext.create('CDT.store.transporte.tecnico.ParqueoVehiculoStore');
+        me.store = Ext.create('CDT.store.transporte.tecnico.ParqueoVehiculoPermanenteStore');
         // Modelo de columna
         me.columns = [{
             xtype : 'rownumberer',
@@ -35,21 +35,22 @@ Ext.define('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid', {
             hidden: true
         },{
             text : 'Fecha',
+            flex: 1,
             columns: [{
-                text: 'Fecha emisión',
-                dataIndex: 'fechaEmision',
-                flex: 1,                
+                text: 'Emisión',
+                dataIndex: 'fecha_emision', 
+                align: 'center',             
                 editor: {
                     xtype: 'datefield',
-                    format: 'Y-m-d'
+                    format: 'd-m-Y'
                 }
             }, {
-                text: 'Fecha vencimiento',
-                dataIndex: 'fechaVencimiento',
-                flex: 1,
+                text: 'Vencimiento',
+                dataIndex: 'fecha_vencimiento',
+                align: 'center',
                 editor: {
                     xtype: 'datefield',
-                    format: 'Y-m-d'
+                    format: 'd-m-Y'
                 }
             }]
         },{
@@ -59,18 +60,18 @@ Ext.define('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid', {
             flex: 4
         },{
             text: 'Cargo',
-            dataIndex: 'cargoChofer',
+            dataIndex: 'cargo_chofer',
             sortable: true,
             flex: 2,
             hidden: true
         },{
             text: 'Área de parqueo',
-            dataIndex: 'areaParqueo',
+            dataIndex: 'area_arqueo_id',
             sortable: true,
             flex: 2
         },{
             text: 'Dirección particular',
-            dataIndex: 'direccionAreaParqueo',
+            dataIndex: 'direccion_area_parqueo',
             flex: 4,
             editor: {
                 xtype: 'textfield',
@@ -98,25 +99,22 @@ Ext.define('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid', {
                 sortable: true
             },{
                 text: 'Tipo',
-                dataIndex: 'vehiculoTipo',
+                dataIndex: 'tipo_vehiculo',
                 sortable: true
             }]                
         },{
-            text: 'Aprobado',
+            text: '<img src=\"/images/help.png\"/>',
+            xtype: 'checkcolumn',
+            tooltip: 'Si está aprobado o no',
             dataIndex: 'aprobado',
             align: 'center',
-            flex: 1,
-            hidden: true,
-            renderer: function(val) {
-                if ( val === 'SI' ) {
-                    return '<img src=\"/images/transporte/flag-si.png\"/>';
-                } else {
-                    return '<img src=\"/images/transporte/flag-no.png\"/>';
-                }
-            }
+            editor: {
+                xtype: 'checkbox'
+            },
+            flex: 1
         },{
             text: 'Tipo parqueo',
-            dataIndex: 'parqueoVehiculoTipo',
+            dataIndex: 'parqueo_vehiculo_tipo',
             sortable: true,
             flex: 2,
             hidden: true
@@ -127,7 +125,7 @@ Ext.define('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid', {
             hidden: true,   
         },{
             text: 'Dirección UO',
-            dataIndex: 'direccionUnidadOrganizativa',
+            dataIndex: 'direccion_unidad_organizativa',
             flex: 3,
             hidden: true, 
             editor: {
@@ -142,7 +140,7 @@ Ext.define('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid', {
             hidden: true
         }, {
             text: 'ChoferVehículoID',
-            dataIndex: 'choferVehiculo',
+            dataIndex: 'chofer_vehiculo_id',
             hidden: true
         }];
         // Barra superior

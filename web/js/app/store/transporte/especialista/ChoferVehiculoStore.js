@@ -2,7 +2,7 @@
 Ext.define('CDT.store.transporte.especialista.ChoferVehiculoStore', {
     extend: 'Ext.data.Store',
 
-    fields: ['id', 'permanente', 'chofer', 'chofer_id', 'vehiculo'],
+    fields: ['id', 'permanente', 'chofer', 'chofer_id', 'vehiculo', 'vehiculo_id'],
     autoLoad: true,
     sorters: 'chofer',
     groupField: 'vehiculo',

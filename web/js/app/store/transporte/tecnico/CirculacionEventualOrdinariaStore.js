@@ -1,5 +1,5 @@
 
-Ext.define('CDT.store.transporte.tecnico.CirculacionEventualStore', {
+Ext.define('CDT.store.transporte.tecnico.CirculacionEventualOrdinariaStore', {
     extend: 'Ext.data.Store',
 
     fields: [ 'id', 'fecha_inicial', 'fecha_final', 'hora_inicial', 'hora_final', 'aprobado' , 'pendiente', 'tarea', 'circulacion_eventual_tipo', 'chofer_vehiculo_id', 'matricula_id', 'chapa', 'tipo_vehiculo', 'marca', 'modelo', 'chofer', 'licencia', 'unidad_organizativa'],
@@ -9,7 +9,7 @@ Ext.define('CDT.store.transporte.tecnico.CirculacionEventualStore', {
 
     proxy: {
         type: 'ajax',
-        url: entorno+'/transporte/circulacion/eventual/circulacion_eventual/list',
+        url: entorno+'/transporte/circulacion/eventual/circulacion_eventual/listordinaria',
         reader : {
             type            : 'json',
             root            : 'data',

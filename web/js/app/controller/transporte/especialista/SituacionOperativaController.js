@@ -2,35 +2,25 @@
 Ext.define('CDT.controller.transporte.especialista.SituacionOperativaController', {
     extend: 'Ext.app.Controller',
 
-    views: [
-        'transporte.especialista.situacion_operativa.SituacionOperativaGrid',
-        'transporte.especialista.situacion_operativa.SituacionOperativaForm'
-    ],
-
-    init: function()
-    {
-        var me = this;
-
-        me.control({
+    control:{
             'situacionoperativaGrid': {
-                edit: me.edit,
+                edit: "edit",
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
                 afterrender: function (grid, eOpts) { var me = this; me.grid = grid; me.store = grid.store; }
             },
             'situacionoperativaGrid button[iconCls=fa fa-plus]': {
-                click: me.showSituacionOperativa
+                click: "showSituacionOperativa"
             },
             'situacionoperativaGrid button[iconCls=fa fa-times]': {
-                click: me.confirmRemuve
+                click: "confirmRemuve"
             },
             'situacionoperativaForm': {
-                afterrender: me.afterRenderWin
+                afterrender: "afterRenderWin"
             },
             // Formulario
             'situacionoperativaForm button[iconCls=fa fa-check-circle-o]': {
-                click: me.validateForm
+                click: "validateForm"
             }
-        });
     },
     loadStore: function () { var me = this; me.store.load(); },
     // Mostrar Windows Situacion Operativa.
@@ -74,7 +64,7 @@ Ext.define('CDT.controller.transporte.especialista.SituacionOperativaController'
                         form.reset();
                         break;
                     case 'Unico':
-                        Ext.ex.MessageBox('Atención', 'Ya existe la Situacion Operativa: <b>'+record['Nombre']+'</b>', 'question');
+                        Ext.ex.MessageBox('Atención', 'Ya existe la Situación Operativa: <b>'+record['Nombre']+'</b>', 'question');
                         form.reset();
                         break;
                     default:
@@ -83,7 +73,7 @@ Ext.define('CDT.controller.transporte.especialista.SituacionOperativaController'
                 }
             },
             failure: function () {
-                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
+                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, inténtelo más tarde.', 'error');
             }
         });
     },
@@ -104,7 +94,7 @@ Ext.define('CDT.controller.transporte.especialista.SituacionOperativaController'
                         me.loadStore();
                         break;
                     case 'Unico':
-                        Ext.ex.MessageBox('Atención', 'Ya existe la Situacion Operativa: <b>'+context.record.get('nombre')+'</b>', 'question');
+                        Ext.ex.MessageBox('Atención', 'Ya existe la Situación Operativa: <b>'+context.record.get('nombre')+'</b>', 'question');
                         me.loadStore();
                         break;
                     default:
@@ -113,7 +103,7 @@ Ext.define('CDT.controller.transporte.especialista.SituacionOperativaController'
                 }
             },
             failure: function(){
-                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
+                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, inténtelo más tarde.', 'error');
             }
         });
     },
@@ -123,11 +113,11 @@ Ext.define('CDT.controller.transporte.especialista.SituacionOperativaController'
         var me = this;
         if (me.grid.selModel.getCount() === 1)
         {
-            Ext.MessageBox.confirm('Confirmación', 'Desea eliminar el registro seleccionado?', me.remove, me);
+            Ext.MessageBox.confirm('Confirmación', '¿Desea eliminar el registro seleccionado?', me.remove, me);
         }
         else if (me.grid.selModel.getCount() > 1)
         {
-            Ext.MessageBox.confirm('Confirmación', 'Desea eliminar los registros seleccionados?', me.remove, me);
+            Ext.MessageBox.confirm('Confirmación', '¿Desea eliminar los registros seleccionados?', me.remove, me);
         } else {
             Ext.ex.MessageBox('Atención', 'Seleccione el o los registro que desea eliminar.', 'question');
         }

@@ -55,11 +55,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ParqueoVehiculo.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Entity/ParqueoVehiculo.php">
+      <file leaf-file-name="controlTransporte.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Resources/views/Reportes/controlTransporte.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7842227">
-              <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.3617021">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#4;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#4;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#5;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#5;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#6;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#6;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#6;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#7;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#2;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#td#2;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#3;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#td#3;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#4;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#td#4;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#5;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#td#5;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#6;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#6;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#td#6;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#7;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5816994">
+              <caret line="80" column="68" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -77,57 +143,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/Admin/globalScript.html.twig" />
-        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/VehiculoRepository.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/AreaParqueo.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/Vehiculo.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/VehiculoController.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/MatriculaRepository.php" />
-        <option value="$PROJECT_DIR$/web/js/app/view/portal/Viewport.js" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/portal/ViewportController.js" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/SecuredController.php" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Entity/Users.php" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Security/SecurityAuthentication.php" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Security/Util.php" />
-        <option value="$PROJECT_DIR$/web/js/app/view/portal/LoginPanel.js" />
+        <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+        <option value="$PROJECT_DIR$/web/js/app/store/transporte/tecnico/ControlTransporteStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/tecnico/control_transporte/AgentesGrid.js" />
+        <option value="$PROJECT_DIR$/../SICONS/web/js/app/view/especialistacalidad/controlcalidad/ProyectoControlCalidadGrid.js" />
+        <option value="$PROJECT_DIR$/web/css/transporte/icons.css" />
         <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/chofer_vehiculo/ChoferVehiculoForm.js" />
-        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/chofer/ChoferGrid.js" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/EspecialistaViewportController.js" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/ChoferVehiculoController.js" />
+        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/ChoferController.php" />
         <option value="$PROJECT_DIR$/web/js/app/store/transporte/especialista/ChoferVehiculoStore.js" />
         <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/chofer_vehiculo/ChoferVehiculoGrid.js" />
-        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/SituacionOperativaController.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Entity/AgenteRepository.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Controller/AgenteController.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Entity/Agente.php" />
         <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/ChoferVehiculo.php" />
         <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/ChoferVehiculoRepository.php" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/ChoferController.js" />
         <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/ChoferVehiculoController.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Entity/ControlTransporte.php" />
-        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/matricula/MatriculaGrid.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/VehiculoController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/ChoferVehiculoController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/MatriculaController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/SituacionOperativaController.js" />
+        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/SituacionOperativa.php" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/situacion_operativa/SituacionOperativaGrid.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/situacion_operativa/SituacionOperativaForm.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/area_parqueo/AreaParqueoForm.js" />
+        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/AreaParqueo.php" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/area_parqueo/AreaParqueoGrid.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/VehiculoTipoController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/MarcaController.js" />
         <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/ModeloController.js" />
-        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Entity/ControlTransporteRepository.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Controller/ControlTransporteController.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/CirculacionEventualBundle/Controller/CirculacionEventualController.php" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/especialista/AgenteController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/ListadosMenu.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/ReporteMenu.js" />
+        <option value="$PROJECT_DIR$/app/Resources/views/ext-6.0.1.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/EspecialistaViewportController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/portal/ViewportController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/portal/LoginPanel.js" />
+        <option value="$PROJECT_DIR$/web/js/app/store/transporte/especialista/TransporteStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/charts/TransportePanel.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/especialista/charts/TransporteChart.js" />
+        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Resources/views/Reportes/controlTransporte3.html.twig" />
+        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Controller/ReportesController.php" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/EspecialistaViewport.js" />
         <option value="$PROJECT_DIR$/src/Transporte/CirculacionEventualBundle/Entity/CirculacionEventualRepository.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/CirculacionEventualBundle/Entity/CirculacionEventual.php" />
-        <option value="$PROJECT_DIR$/web/js/app/store/transporte/tecnico/CirculacionEventualStore.js" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/tecnico/CirculacionEventualController.js" />
-        <option value="$PROJECT_DIR$/web/js/app/view/transporte/tecnico/AutorizoCirculacionMenu.js" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/tecnico/ControlTransporteController.js" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/TecnicoViewportController.js" />
-        <option value="$PROJECT_DIR$/web/js/app/view/transporte/tecnico/parqueo_vehiculo/ParqueoVehiculoGrid.js" />
-        <option value="$PROJECT_DIR$/web/css/all.css" />
-        <option value="$PROJECT_DIR$/web/js/app/view/transporte/TecnicoViewport.js" />
-        <option value="$PROJECT_DIR$/web/js/app/view/transporte/tecnico/circulacion_eventual/CirculacionEventualGrid.js" />
-        <option value="$PROJECT_DIR$/web/css/transporte/icons.css" />
+        <option value="$PROJECT_DIR$/web/js/app/view/transporte/tecnico/circulacion_eventual/CirculacionEventualOrdinariaGrid.js" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/web/js/app/view/transporte/tecnico/control_transporte/ControlTransporteGrid.js" />
-        <option value="$PROJECT_DIR$/web/js/app/store/transporte/tecnico/ParqueoVehiculoStore.js" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/tecnico/ParqueoVehiculoController.js" />
-        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Resources/views/Transporte/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Entity/ParqueoVehiculoRepository.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Controller/ParqueoVehiculoController.php" />
-        <option value="$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Entity/ParqueoVehiculo.php" />
+        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Controller/ControlTransporteController.php" />
+        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Entity/ControlTransporteRepository.php" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/transporte/tecnico/ControlTransporteController.js" />
+        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Resources/config/validation.yml" />
+        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Resources/config/validation.yml" />
+        <option value="$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/VehiculoController.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Resources/views/Reportes/controlTransporte.html.twig" />
       </list>
     </option>
   </component>
@@ -143,8 +209,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1024" />
-    <option name="height" value="600" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -169,7 +237,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -345,44 +412,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="parqueo_vehiculo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="control_transporte" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -408,112 +437,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="circulacion_eventual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tecnico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -604,14 +527,6 @@
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="especialista" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -627,15 +542,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -649,33 +556,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transporte" />
+              <option name="myItemId" value="var" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -734,6 +615,128 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TransporteBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transporte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransporteBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transporte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransporteBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transporte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transporte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ControlParqueoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TRANSPORTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transporte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ControlParqueoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -745,7 +748,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Transporte" />
+              <option name="myItemId" value="Reportes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -767,107 +770,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TransporteBundle" />
+              <option name="myItemId" value="ControlParqueoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParqueoVehiculoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParqueoVehiculoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParqueoVehiculoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControlParqueoBundle" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -893,7 +804,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -916,80 +831,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ControlParqueoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CirculacionEventualBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CirculacionEventualBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRANSPORTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Transporte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CirculacionEventualBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1031,6 +872,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1038,6 +880,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Proyects\Symfony_2\TRANSPORTE\src\Transporte\ControlParqueoBundle\Resources\views\Reportes" />
+      <recent name="$PROJECT_DIR$/web/images" />
+      <recent name="$PROJECT_DIR$/web/js/app/store/transporte/especialista" />
+      <recent name="$PROJECT_DIR$/web/js/app/view/transporte/especialista" />
+      <recent name="D:\Proyects\Symfony_2\TRANSPORTE\web\js\app\view\transporte\tecnico\control_transporte" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Proyects\Symfony_2\TRANSPORTE\src\Transporte\ControlParqueoBundle\Resources\views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -1080,48 +936,59 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="600" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27142859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885212" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3180363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1143,92 +1010,115 @@
           <line>4</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Controller/TrabajadorController.php">
+    <entry file="file://$PROJECT_DIR$/src/Util/cURLBundle/Services/cURL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3146853">
+        <state vertical-scroll-proportion="-2.2206898">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Entity/DepartamentoRepository.php">
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Portal/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5687646">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9517241">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/cURLBundle/Entity/EmailAddressRepository.php">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/portal/Viewport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.72727275">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9484536">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/ChoferRepository.php">
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/admin/AdminController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7272727">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state vertical-scroll-proportion="6.4810996">
+          <caret line="246" column="43" selection-start-line="246" selection-start-column="40" selection-end-line="246" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/Matricula.php">
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/admin/SeguridadTreeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="111" column="14" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/admin/ViewportController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3059867">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/portal/ViewportController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="195" column="6" selection-start-line="195" selection-start-column="6" selection-end-line="195" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/MatriculaRepository.php">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/portal/LoginPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4615384">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Entity/VehiculoRepository.php">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/especialista/matricula/MatriculaForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08857809">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/especialista/vehiculo/VehiculoGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.124726474">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/especialista/VehiculoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80087525">
-          <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6119734">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/especialista/matricula/MatriculaGrid.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="22" selection-end-line="54" selection-end-column="23" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/nomenclador/DepartamentoController.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/transporte/especialista/AgenteStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="22" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/especialista/ModeloController.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/especialista/chofer/ChoferGrid.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+          <caret line="48" column="78" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Resources/views/Reportes/controlTransporte2.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63448274">
+          <caret line="196" column="8" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Resources/views/Reportes/controlTransporte3.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31724137">
+          <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/especialista/ReporteMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43348116">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1236,499 +1126,353 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Services/Util.php">
+    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Controller/ReportesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Entity/UsersRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.571428">
-          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Controller/AreaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.547619">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/b53a9b66-1036-4198-b6ec-68953441c8ac.schema:etecsa_cd_db.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>b53a9b66-1036-4198-b6ec-68953441c8ac.schema:etecsa_cd_db.public</OriginalElement>
-          <nodes>
-            <node x="2017.5" y="412.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo</node>
-            <node x="1149.5" y="2064.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador_autorizo_tipo</node>
-            <node x="617.5" y="264.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.oficina</node>
-            <node x="327.5" y="199.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.personal_horario_extralaboral</node>
-            <node x="377.5" y="2624.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.cargo</node>
-            <node x="2037.5" y="2318.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer</node>
-            <node x="647.5" y="879.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.users</node>
-            <node x="690.5" y="677.5">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.user_area</node>
-            <node x="2257.5" y="1144.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.situacion_operativa_vehiculo</node>
-            <node x="87.5" y="2611.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.departamento</node>
-            <node x="1437.5" y="798.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.unidad_organizativa</node>
-            <node x="317.5" y="2266.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador</node>
-            <node x="2047.5" y="1571.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer_vehiculo</node>
-            <node x="1437.5" y="1078.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.poblado</node>
-            <node x="930.5" y="957.5">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.user_role</node>
-            <node x="1767.5" y="584.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area_parqueo_tipo</node>
-            <node x="1107.5" y="1493.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual</node>
-            <node x="2297.5" y="664.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo_tipo</node>
-            <node x="1135.5" y="1117.5">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual_poblado</node>
-            <node x="1747.5" y="785.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area_parqueo</node>
-            <node x="2377.5" y="1532.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.control_transporte</node>
-            <node x="-32.5" y="2331.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.horario_laboral</node>
-            <node x="2187.5" y="1837.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.agente</node>
-            <node x="2383.5" y="1837.5">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.agente_control_transporte</node>
-            <node x="877.5" y="2038.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador_autorizo</node>
-            <node x="937.5" y="1144.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.roles</node>
-            <node x="2297.5" y="464.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.marca</node>
-            <node x="1148.5" y="1864.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual_tipo</node>
-            <node x="1475.5" y="1824.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.parqueo_vehiculo_tipo</node>
-            <node x="2313.0" y="878.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.matricula</node>
-            <node x="2057.5" y="224.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.modelo</node>
-            <node x="319.5" y="-16.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.personal_horario_extralaboral_tipo</node>
-            <node x="1737.5" y="1772.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.parqueo_vehiculo</node>
-            <node x="1457.5" y="464.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area</node>
-            <node x="2285.5" y="1344.0">b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.situacion_operativa</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.marca">
-              <point x="102.5" y="0.0" />
-              <point x="-62.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.personal_horario_extralaboral" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador">
-              <point x="0.0" y="121.0" />
-              <point x="0.0" y="-134.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo_tipo">
-              <point x="60.0" y="108.0" />
-              <point x="2180.0" y="720.0" />
-              <point x="-62.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.unidad_organizativa">
-              <point x="0.0" y="56.0" />
-              <point x="0.0" y="-82.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.departamento">
-              <point x="-122.5" y="40.0" />
-              <point x="160.0" y="2440.0" />
-              <point x="0.0" y="-69.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area_parqueo">
-              <point x="-40.0" y="108.0" />
-              <point x="2080.0" y="880.0" />
-              <point x="92.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.user_role" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.roles">
-              <point x="0.0" y="42.5" />
-              <point x="0.0" y="-56.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.cargo">
-              <point x="0.0" y="134.0" />
-              <point x="0.0" y="-56.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador_autorizo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.parqueo_vehiculo">
-              <point x="0.0" y="82.0" />
-              <point x="960.0" y="2280.0" />
-              <point x="1840.0" y="2280.0" />
-              <point x="0.0" y="108.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.user_area" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area">
-              <point x="0.0" y="-42.5" />
-              <point x="760.0" y="560.0" />
-              <point x="-62.5" y="40.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.agente_control_transporte" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.agente">
-              <point x="-96.5" y="0.0" />
-              <point x="52.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.poblado" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.unidad_organizativa">
-              <point x="0.0" y="-82.0" />
-              <point x="0.0" y="82.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.user_role" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.users">
-              <point x="-69.5" y="0.0" />
-              <point x="112.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador_autorizo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador">
-              <point x="-82.5" y="0.0" />
-              <point x="500.0" y="2120.0" />
-              <point x="60.0" y="-134.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.user_area" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.users">
-              <point x="0.0" y="42.5" />
-              <point x="0.0" y="-121.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.personal_horario_extralaboral" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.personal_horario_extralaboral_tipo">
-              <point x="0.0" y="-121.0" />
-              <point x="0.0" y="56.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.parqueo_vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area_parqueo">
-              <point x="0.0" y="-108.0" />
-              <point x="0.0" y="95.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer_vehiculo">
-              <point x="132.5" y="0.0" />
-              <point x="-72.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador_autorizo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador_autorizo_tipo">
-              <point x="82.5" y="0.0" />
-              <point x="-90.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.control_transporte" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer_vehiculo">
-              <point x="-102.5" y="0.0" />
-              <point x="72.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area">
-              <point x="-102.5" y="0.0" />
-              <point x="62.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.modelo">
-              <point x="0.0" y="-108.0" />
-              <point x="0.0" y="56.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador_autorizo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual">
-              <point x="0.0" y="-82.0" />
-              <point x="960.0" y="1640.0" />
-              <point x="-132.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.horario_laboral">
-              <point x="-122.5" y="0.0" />
-              <point x="72.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.users" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador">
-              <point x="-112.5" y="0.0" />
-              <point x="480.0" y="1000.0" />
-              <point x="40.0" y="-134.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.matricula">
-              <point x="40.0" y="108.0" />
-              <point x="2160.0" y="960.0" />
-              <point x="-127.0" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual_poblado" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual">
-              <point x="0.0" y="42.5" />
-              <point x="0.0" y="-147.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.parqueo_vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer_vehiculo">
-              <point x="102.5" y="0.0" />
-              <point x="2080.0" y="1880.0" />
-              <point x="-40.0" y="69.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual_tipo">
-              <point x="0.0" y="147.0" />
-              <point x="0.0" y="-56.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.personal_horario_extralaboral" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.oficina">
-              <point x="112.5" y="0.0" />
-              <point x="-62.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.circulacion_eventual_poblado" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.poblado">
-              <point x="104.5" y="0.0" />
-              <point x="-82.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador">
-              <point x="-82.5" y="0.0" />
-              <point x="122.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.agente_control_transporte" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.control_transporte">
-              <point x="0.0" y="-42.5" />
-              <point x="0.0" y="108.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.trabajador" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area">
-              <point x="20.0" y="-134.0" />
-              <point x="460.0" y="520.0" />
-              <point x="-62.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.situacion_operativa_vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo">
-              <point x="-102.5" y="0.0" />
-              <point x="2140.0" y="1200.0" />
-              <point x="20.0" y="108.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area_parqueo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area_parqueo_tipo">
-              <point x="0.0" y="-95.0" />
-              <point x="0.0" y="56.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.parqueo_vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.parqueo_vehiculo_tipo">
-              <point x="-102.5" y="0.0" />
-              <point x="84.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.area_parqueo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.unidad_organizativa">
-              <point x="-92.5" y="0.0" />
-              <point x="82.5" y="0.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer_vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer">
-              <point x="0.0" y="69.0" />
-              <point x="0.0" y="-82.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.situacion_operativa_vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.situacion_operativa">
-              <point x="0.0" y="56.0" />
-              <point x="0.0" y="-56.0" />
-            </edge>
-            <edge source="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.chofer_vehiculo" target="b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.vehiculo">
-              <point x="0.0" y="-69.0" />
-              <point x="0.0" y="108.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9118376550169108" x="942.0" y="1302.0" />
-          <SelectedNodes>
-            <node>b53a9b66-1036-4198-b6ec-68953441c8ac.table:etecsa_cd_db.public.control_transporte</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/VehiculoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17016317">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Controller/AgenteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.011655">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/CirculacionEventualBundle/Controller/CirculacionEventualController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5314685">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Controller/ControlTransporteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26573426">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/CirculacionEventualBundle/Entity/CirculacionEventualRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26573426">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Entity/ControlTransporteRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26573426">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/store/transporte/tecnico/ControlTransporteStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/store/transporte/tecnico/CirculacionEventualStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4573304">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37417942">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/especialista/AreaParqueoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4573304">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/EspecialistaViewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.139535">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5624257">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/EspecialistaViewportController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1661129">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/especialista/chofer/ChoferForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/especialista/vehiculo/VehiculoForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6629712">
+          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/EspecialistaViewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20953436">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="111" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/transporte/especialista/AreaParqueoStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.101995565">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/ChoferController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.96875">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/especialista/VehiculoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/especialista/ChoferController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1474501">
+          <caret line="162" column="16" selection-start-line="162" selection-start-column="16" selection-end-line="165" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transporte/CirculacionEventualBundle/Entity/CirculacionEventualRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-64.888885">
+          <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/especialista/AreaParqueoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/especialista/area_parqueo/AreaParqueoGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="9" selection-start-line="59" selection-start-column="10" selection-end-line="71" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/transporte/tecnico/CirculacionEventualOrdinariaStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/tecnico/circulacion_eventual/CirculacionEventualOrdinariaGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="13" selection-start-line="88" selection-start-column="12" selection-end-line="93" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/tecnico/CirculacionEventualController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41830066">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1461836690000" expanded="true" signature="-1:-1" placeholder="{&quot;extend&quot;: 'Ext.app.Controller'...}" />
+            <marker date="1461836690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Controller/ControlTransporteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.692308">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="e#627#667#1#PHP" expanded="true" />
+            <element signature="e#1217#1257#1#PHP" expanded="true" />
+            <element signature="e#1989#2022#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Entity/ControlTransporteRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.555555">
+          <caret line="34" column="149" selection-start-line="34" selection-start-column="149" selection-end-line="34" selection-end-column="149" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/tecnico/control_transporte/ControlTransporteGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26797387">
+          <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+          <folding>
+            <element signature="e#1093#1763#0" expanded="false" />
+            <element signature="e#1821#2767#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/tecnico/control_transporte/AgentesGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/ChoferVehiculoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Resources/config/validation.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.104575165">
+          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/tecnico/ControlTransporteController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/AplicacionesMenu.js">
+    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Resources/config/validation.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.076412">
-          <caret line="39" column="13" selection-start-line="22" selection-start-column="11" selection-end-line="39" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.73202616">
+          <caret line="35" column="87" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/tecnico/AutorizoCirculacionMenu.js">
+    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/SituacionOperativaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47840533">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/tecnico/CirculacionEventualController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14950167">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Entity/TrabajadorAutorizo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1269565">
+        <state vertical-scroll-proportion="34.666668">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/transporte/index.css">
+    <entry file="file://$PROJECT_DIR$/../../VIVIENDA/web/js/app/view/despacho/ReporteForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.435216">
+        <state vertical-scroll-proportion="0.627451">
+          <caret line="48" column="40" selection-start-line="44" selection-start-column="37" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <marker date="1463435131357" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1463435131357" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../VIVIENDA/web/js/app/view/QuejasViewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.47058824">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/all.css">
+    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Controller/VehiculoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5813953">
-          <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+        <state vertical-scroll-proportion="-8.888889">
+          <caret line="112" column="51" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
+          <folding>
+            <element signature="e#4573#4600#1#PHP" expanded="true" />
+            <element signature="e#4655#4692#1#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/TecnicoViewportController.js">
+    <entry file="file://$PROJECT_DIR$/../../VIVIENDA/web/js/app/controller/despacho/DespachoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9401993">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="266" column="42" selection-start-line="266" selection-start-column="42" selection-end-line="266" selection-end-column="42" />
+          <folding>
+            <marker date="1463436737562" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1463436737562" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/transporte/icons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7607973">
-          <caret line="203" column="17" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/TecnicoViewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.11960133">
-          <caret line="44" column="17" selection-start-line="41" selection-start-column="18" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/tecnico/control_transporte/ControlTransporteGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7009967">
-          <caret line="130" column="11" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/tecnico/circulacion_eventual/CirculacionEventualGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6112957">
-          <caret line="147" column="13" selection-start-line="144" selection-start-column="14" selection-end-line="147" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/store/transporte/tecnico/ParqueoVehiculoStore.js">
+    <entry file="file://$PROJECT_DIR$/../../VIVIENDA/src/QuejasBundle/Resources/views/Reportes/entrevista.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/transporte/tecnico/parqueo_vehiculo/ParqueoVehiculoGrid.js">
+    <entry file="file://$PROJECT_DIR$/../../VIVIENDA/src/QuejasBundle/Entity/DespachoRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5555556">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/TransporteBundle/Resources/views/Transporte/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/../../VIVIENDA/src/QuejasBundle/Resources/views/Reportes/resumen.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5895652">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.11111111">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="52" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/transporte/tecnico/ParqueoVehiculoController.js">
+    <entry file="file://$PROJECT_DIR$/../../VIVIENDA/src/QuejasBundle/Controller/ReportesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="160" column="33" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
+          <folding>
+            <element signature="e#6116#6157#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Entity/ParqueoVehiculoRepository.php">
+    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Resources/views/Reportes/controlTransporte.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03141361">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.3617021">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#4;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#5;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#6;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#6;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#b#0;n#p#0;n#td#6;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#7;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#1;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#2;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#2;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#3;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#3;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#4;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#4;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#5;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#5;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#6;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#6;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#td#6;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#7;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Controller/ParqueoVehiculoController.php">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15706806">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ControlParqueoBundle/Entity/ControlTransporte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8888888">
-          <caret line="267" column="6" selection-start-line="267" selection-start-column="6" selection-end-line="267" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/CirculacionEventualBundle/Entity/CirculacionEventual.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.560209">
-          <caret line="368" column="27" selection-start-line="368" selection-start-column="13" selection-end-line="368" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transporte/ParqueoVehiculoBundle/Entity/ParqueoVehiculo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7842227">
-          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5816994">
+          <caret line="80" column="68" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="68" />
           <folding />
         </state>
       </provider>

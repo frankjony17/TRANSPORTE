@@ -358,14 +358,15 @@ class CirculacionEventual
         return array
         (
             'id' => $this->id,
-            'fecha_inicial' =>date_format(new \DateTime('now'),'Y-m-d'),
-            'fecha_final' =>date_format(new \DateTime('now'),'Y-m-d'),
+            'fecha_inicial' =>date_format(new \DateTime('now'),'d-m-Y'),
+            'fecha_final' =>date_format(new \DateTime('now'),'d-m-Y'),
             'hora_inicial' => $this->horaInicial->format('H:i:s'),
             'hora_final' => $this->horaFinal->format('H:i:s'),
             'aprobado' => ($this->aprobado) ? 'SI' : 'NO',
             'pendiente' => ($this->pendiente) ? 'SI' : 'NO',
             'tarea' => $this->tarea,
-            'circulacion_eventual_tipo' => $this->getCirculacionEventualTipo()->getId(),
+            'circulacion_eventual_tipo_id' => $this->getCirculacionEventualTipo()->getId(),
+            'circulacion_eventual_tipo' => $this->getCirculacionEventualTipo()->getNombre(),
             'chofer_vehiculo_id' => $this->getChoferVehiculo()->getId(),
             //Vehiculo
             'matricula_id' => $this->getChoferVehiculo()->getVehiculo()->getMatricula()->getId(),

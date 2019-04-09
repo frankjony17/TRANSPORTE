@@ -3,7 +3,14 @@ Ext.define('CDT.controller.transporte.tecnico.ParqueoVehiculoController', {
     extend: 'Ext.app.Controller',
 
     control: {
-            'parqueovehiculoGrid': {
+            'parqueovehiculoeventualGrid': {
+                //edit: edit,
+                // Mantiene el grid en una altura de acuerdo al navegador
+                resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
+                // Cuando el Grid es renderiado
+                afterrender: function (grid, eOpts) { var me = this; me.grid = grid; me.store = grid.store; }
+            },
+            'parqueovehiculopermanenteGrid': {
                 //edit: edit,
                 // Mantiene el grid en una altura de acuerdo al navegador
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },

@@ -2,35 +2,25 @@
 Ext.define('CDT.controller.transporte.especialista.AreaParqueoController', {
     extend: 'Ext.app.Controller',
 
-    views: [
-        'transporte.especialista.area_parqueo.AreaParqueoGrid',
-        'transporte.especialista.area_parqueo.AreaParqueoForm'
-    ],
-
-    init: function()
-    {   
-        var me = this;
-        
-        me.control({
+    control:{
             'areaparqueoGrid': {
-                edit: me.edit,
+                edit: "edit",
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
                 afterrender: function (grid, eOpts) { var me = this; me.grid = grid; me.store = grid.store; }
             },            
             'areaparqueoGrid button[iconCls=fa fa-plus]': {
-                click: me.showAreaParqueo
+                click: "showAreaParqueo"
             },
             'areaparqueoGrid button[iconCls=fa fa-times]': {
-                click: me.confirmRemuve
+                click: "confirmRemuve"
             },
             'areaparqueoForm': {
-                afterrender: me.afterRenderWin
+                afterrender: "afterRenderWin"
             },
             // Formulario 
             'areaparqueoForm button[iconCls=fa fa-check-circle-o]': {
-                click: me.validateForm
+                click: "validateForm"
             }
-        });
     },
     loadStore: function () { var me = this; me.store.load(); },
     // Mostrar Windows areaparqueo.

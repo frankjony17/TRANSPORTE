@@ -24,7 +24,7 @@ class SituacionOperativa
     /**
      * @var string
      *
-     * @ORM\Column(name="nombre", type="string", length=25, nullable=false)
+     * @ORM\Column(name="nombre", type="string", length=75, nullable=false)
      */
     private $nombre;
 

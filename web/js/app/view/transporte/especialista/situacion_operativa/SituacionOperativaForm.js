@@ -35,7 +35,7 @@ Ext.define('CDT.view.transporte.especialista.situacion_operativa.SituacionOperat
                     anchor: '100%',
                     maskRe: /[aA-zZ\ \áéíóúñÁÉÍÓÚÑ]/,
                     regex: /[aA-zZ]/,
-                    maxLength: 43,
+                    maxLength: 74,
                     allowBlank: false
                 },{
                     xtype: 'textarea',

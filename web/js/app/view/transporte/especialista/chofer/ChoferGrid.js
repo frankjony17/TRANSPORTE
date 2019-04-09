@@ -46,9 +46,9 @@ Ext.define('CDT.view.transporte.especialista.chofer.ChoferGrid', {
                 flex: 1                ,
                 renderer: function(val) {
                     if ( val === 'SI' ) {
-                        return '<img src=\"/images/transporte/flag-si.png\"/>';
+                        return '<img src=\"/images/transporte/flag-ok.png\"/>';
                     } else {
-                        return '<img src=\"/images/transporte/flag-no.png\"/>';
+                        return '<img src=\"/images/transporte/flag-err.png\"/>';
                     }
                 }
             }, {

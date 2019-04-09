@@ -71,7 +71,7 @@ Ext.define('CDT.view.transporte.especialista.matricula.MatriculaGrid', {
                 flex: 1,
                 editor: {
                     xtype: 'datefield',
-                    format: 'Y-m-d',
+                    format: 'd-m-Y',
                     editable: false
                 },
                 renderer: function(val) {

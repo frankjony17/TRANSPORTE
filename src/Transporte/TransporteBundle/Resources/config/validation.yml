@@ -25,20 +25,22 @@ Transporte\TransporteBundle\Entity\VehiculoTipo:
 Transporte\ControlParqueoBundle\Entity\Agente:
     constraints:
         - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: nombreApellidos
-#Transporte\TransporteBundle\Entity\Chofer:
-#    constraints:
-#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: licencia
-#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: trabajador
-#        
+
 Transporte\TransporteBundle\Entity\SituacionOperativa:
     constraints:
         - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: nombre
 #        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: descripcion
 
-#Transporte\TransporteBundle\Entity\ChoferVehiculo:
-#    constraints:
-#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: [chofer, permanente]
-#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: [chofer, vehiculo]
+Transporte\TransporteBundle\Entity\ChoferVehiculo:
+    constraints:
+        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: [chofer, permanente]
+
 Transporte\ControlParqueoBundle\Entity\ControlTransporte:
    constraints:
        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: [fecha, chofer_vehiculo_id]
+
+#Transporte\TransporteBundle\Entity\Chofer:
+#    constraints:
+#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: licencia
+#        - \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: trabajador
+#

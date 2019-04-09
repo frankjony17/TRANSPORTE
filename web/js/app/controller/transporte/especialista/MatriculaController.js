@@ -2,29 +2,19 @@
 Ext.define('CDT.controller.transporte.especialista.MatriculaController', {
     extend: 'Ext.app.Controller',
 
-    views: [
-        'transporte.especialista.matricula.MatriculaGrid',
-        'transporte.especialista.matricula.MatriculaForm'
-    ],
-
-    init: function()
-    {   
-        var me = this;
-        
-        me.control({
+  control:{
             'matriculaGrid': {
-                edit: me.edit,
+                edit: "edit",
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
                 afterrender: function (grid, eOpts) { var me = this; me.grid = grid; me.store = grid.store; me.loadStore(); },
-                itemcontextmenu: me.contextMenu
+                itemcontextmenu: "contextMenu"
             },
             'matriculaGrid button[iconCls=fa fa-pencil-square]': {
-                click: me.confirmEditId
+                click: "confirmEditId"
             },
             'matriculaForm button[iconCls=fa fa-check-circle-o]': {
-                click: me.validateChangeIdForm
+                click: "validateChangeIdForm"
             }
-        });
     },
     loadStore: function () { var me = this; me.store.load(); },
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

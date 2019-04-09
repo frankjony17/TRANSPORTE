@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * ParqueoVehiculo
  *
  * @ORM\Table(name="parqueo_vehiculo", uniqueConstraints={@ORM\UniqueConstraint(name="parqueo_vehiculo_fecha_emision_fecha_vencimiento_chofer_veh_key", columns={"fecha_emision", "fecha_vencimiento", "chofer_vehiculo_id"})}, indexes={@ORM\Index(name="IDX_18CE60002DAB6073", columns={"parqueo_vehiculo_tipo_id"}), @ORM\Index(name="IDX_18CE6000853948F9", columns={"area_parqueo_id"}), @ORM\Index(name="IDX_18CE6000FA85302C", columns={"chofer_vehiculo_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Transporte\ParqueoVehiculoBundle\Entity\ParqueoVehiculoRepository")
  */
 class ParqueoVehiculo
 {
@@ -233,26 +233,27 @@ class ParqueoVehiculo
         return array
         (
             'id' => $this->id,
-            'fechaEmision' =>date_format(new \DateTime('now'),'Y-m-d'),
-            'fechaVencimiento' =>date_format(new \DateTime('now'),'Y-m-d'),
+            'fecha_emision' =>date_format(new \DateTime('now'),'d-m-Y'),
+            'fecha_vencimiento' =>date_format(new \DateTime('now'),'d-m-Y'),
             'aprobado' => ($this->aprobado) ? 'SI' : 'NO',
-            'parqueoVehiculoTipo' => $this->getParqueoVehiculoTipo()->getId(),
+            'parqueo_vehiculo_tipo_id' => $this->getParqueoVehiculoTipo()->getId(),
+            'parqueo_vehiculo_tipo' => $this->getParqueoVehiculoTipo()->getTipo(),
             //Area de Parqueo
-            'areaParqueo' => $this->getAreaParqueo()->getId(),
-            'direccionAreaParqueo' => $this->getAreaParqueo()->getDireccion(),
+            'area_parqueo_id' => $this->getAreaParqueo()->getId(),
+            'direccion_area_parqueo' => $this->getAreaParqueo()->getDireccion(),
             //Vehiculo
-            'choferVehiculo' => $this->getChoferVehiculo()->getId(),        
-            'matriculaId' => $this->getChoferVehiculo()->getVehiculo()->getMatricula()->getId(),
+            'chofer_vehiculo_id' => $this->getChoferVehiculo()->getId(),        
+            'matricula_id' => $this->getChoferVehiculo()->getVehiculo()->getMatricula()->getId(),
             'chapa' => $this->getChoferVehiculo()->getVehiculo()->getMatricula()->getChapa(),
-            'vehiculoTipo' => $this->getChoferVehiculo()->getVehiculo()->getVehiculoTipo()->getNombre(),
+            'tipo_vehiculo' => $this->getChoferVehiculo()->getVehiculo()->getVehiculoTipo()->getNombre(),
             'marca' => $this->getChoferVehiculo()->getVehiculo()->getMarca()->getNombre(),
             'modelo' => $this->getChoferVehiculo()->getVehiculo()->getModelo()->getNombre(),
             //Chofer
             'chofer' => $this->getChoferVehiculo()->getChofer()->getTrabajador()->getNombreApellidos(),
-            'cargoChofer' => $this->getChoferVehiculo()->getChofer()->getTrabajador()->getCargo()->getNombre(),
+            'cargo_chofer' => $this->getChoferVehiculo()->getChofer()->getTrabajador()->getCargo()->getNombre(),
             //Unidad Organizativa
-            'unidadOrganizativa' => $this->getChoferVehiculo()->getVehiculo()->getArea()->getUnidadOrgnizativa()->getNombre(),
-            'direccionUnidadOrganizativa' => $this->getChoferVehiculo()->getVehiculo()->getArea()->getUnidadOrgnizativa()->getDireccion()
+            'unidad_organizativa' => $this->getChoferVehiculo()->getVehiculo()->getArea()->getUnidadOrgnizativa()->getNombre(),
+            'direccion_unidad_organizativa' => $this->getChoferVehiculo()->getVehiculo()->getArea()->getUnidadOrgnizativa()->getDireccion()
 //            'area' => $this->getChoferVehiculo()->getVehiculo()->getArea()->getNombre(),
          );
     }

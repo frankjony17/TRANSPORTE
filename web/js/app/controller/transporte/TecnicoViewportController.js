@@ -44,26 +44,26 @@ Ext.define('CDT.controller.transporte.TecnicoViewportController', {
     // Menu Circulación Eventual Ordinaria.
     circulacioneventualordinariaMenuClick: function ()
     {
-        this.addComponent(Ext.create('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventualGrid'));
+        this.addComponent(Ext.create('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventualOrdinariaGrid'));
         this.updateStatusBar('<b>Gestionar > Circulación Eventual Ordinaria</b>');
     },
     // Menu Circulación Eventual Extraordinariaordinaria.
     circulacioneventualextraordinariaMenuClick: function ()
     {
-        this.addComponent(Ext.create('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventualGrid'));
+        this.addComponent(Ext.create('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventualExtraordinariaGrid'));
         this.updateStatusBar('<b>Gestionar > Circulación Eventual Extraordinaria</b>');
 
     },
     // Menu Autorizo de Parqueo Eventual.
     parqueoeventualMenuClick: function ()
     {
-        this.addComponent(Ext.create('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid'));
+        this.addComponent(Ext.create('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoEventualGrid'));
         this.updateStatusBar('<b>Gestionar > Parqueo Eventual</b>');
     },
     // Menu Autorizo de Parqueo Permanente.
     parqueopermanenteMenuClick: function ()
     {
-        this.addComponent(Ext.create('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoGrid'));
+        this.addComponent(Ext.create('CDT.view.transporte.tecnico.parqueo_vehiculo.ParqueoVehiculoPermanenteGrid'));
         this.updateStatusBar('<b>Gestionar > Parqueo Permanente</b>');
 
     },

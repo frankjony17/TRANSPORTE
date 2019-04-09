@@ -28,11 +28,11 @@ Ext.define('CDT.controller.portal.ViewportController', {
                 mouseover: me.loginBtnOver,
                 mouseout: me.loginBtnOut
             },
-            '#portal-login-btn-cancel': {
-                click: me.closeLogin,
-                mouseover: me.loginBtnOver,
-                mouseout: me.loginBtnOut
-            },
+            //'#portal-login-btn-cancel': {
+            //    //click: me.closeLogin,
+            //    mouseover: me.loginBtnOver,
+            //    mouseout: me.loginBtnOut
+            //},
             '#login-textfield-usuario': {
                 specialkey: me.specialkeyUsuarioText,
                 render: me.renderUsuarioText
@@ -130,17 +130,17 @@ Ext.define('CDT.controller.portal.ViewportController', {
         btn.addCls('portal-login-btn');
     },
     // Close panel login.
-    closeLogin: function ()
-    {
-        var panel = Ext.getCmp('portal-login-panel'), me = this;
-        // Cierro el ToolTip si esta abierto...
-        me.val = false;
-        me.tip_img.close();
-        me.tip_form_invalid.close();
-        // Oculto el Spotlight y cierro el panel...
-        panel.spot.hide();
-        panel.close();
-    },
+    //closeLogin: function ()
+    //{
+    //    var panel = Ext.getCmp('portal-login-panel'), me = this;
+    //    // Cierro el ToolTip si esta abierto...
+    //    me.val = false;
+    //    me.tip_img.close();
+    //    me.tip_form_invalid.close();
+    //    // Oculto el Spotlight y cierro el panel...
+    //    panel.spot.hide();
+    //    panel.close();
+    //},
     // Renderer UsuarioText
     renderUsuarioText: function (cmp)
     {
@@ -149,12 +149,12 @@ Ext.define('CDT.controller.portal.ViewportController', {
     // Enter al texfield Usuario... 
     specialkeyUsuarioText: function (field, e)
     {
-        var me = this;
+        //var me = this;
         
-        if (e.getKey() === e.ESC)
-        {
-            me.closeLogin();
-        }
+        //if (e.getKey() === e.ESC)
+        //{
+        //    me.closeLogin();
+        //}
         if (e.getKey() === e.ENTER)
         {
             var pass = Ext.getCmp('login-textfield-password');
@@ -166,11 +166,11 @@ Ext.define('CDT.controller.portal.ViewportController', {
     specialkeyPasswordText: function (field, e)
     {
         var me = this;
-        
-        if (e.getKey() === e.ESC)
-        {
-            me.closeLogin();
-        }
+        //
+        //if (e.getKey() === e.ESC)
+        //{
+        //    me.closeLogin();
+        //}
         if (e.getKey() === e.ENTER)
         {
             me.validate(field);
@@ -192,7 +192,7 @@ Ext.define('CDT.controller.portal.ViewportController', {
     disabledButton: function (form, bool)
     {
         form.down('[id=portal-login-btn-ok]').setDisabled(bool);
-        form.down('[id=portal-login-btn-cancel]').setDisabled(bool);
+        //form.down('[id=portal-login-btn-cancel]').setDisabled(bool);
     },
     // Autenticar usuario...
     login: function (record, form)
@@ -213,7 +213,7 @@ Ext.define('CDT.controller.portal.ViewportController', {
                     case '0':
                     case '1':
                     case '2':
-                         Ext.ex.MessageBox('Resultado de Autenticación','Credenciales Invalidas.', 'warning');
+                         Ext.ex.MessageBox('Resultado de Autenticación','Credenciales Inválidas.', 'warning');
                          me.disabledButton(form, false);
                         break;
                     default:
@@ -230,7 +230,7 @@ Ext.define('CDT.controller.portal.ViewportController', {
             },
             failure: function()
             {
-                Ext.ex.MessageBox('Error', 'No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
+                Ext.ex.MessageBox('Error', 'No se pudo conectar con el servidor, inténtelo más tarde.', 'error');
             }
         });         
     },

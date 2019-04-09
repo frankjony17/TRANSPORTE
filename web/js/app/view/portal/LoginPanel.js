@@ -28,7 +28,7 @@ Ext.define('CDT.view.portal.LoginPanel', {
         };
         me.spacer = {
             xtype: 'box',
-            autoEl: {tag: 'span', html: '<span>'+ me.nbsp(82) +'</span>'}
+            autoEl: {tag: 'span', html: '<span>'+ me.nbsp(90) +'</span>'}
         };
         
         me.items = [
@@ -95,7 +95,8 @@ Ext.define('CDT.view.portal.LoginPanel', {
                 iconCls: 'cancel',
                 id: 'portal-login-btn-cancel',
                 width: 95,
-                height: 30
+                height: 30,
+                hidden: true
             }]
         }];
         

@@ -83,6 +83,16 @@
         position: relative;
         top: 3px;
 }
+.fa-mail-reply-all:before {
+        font-size: 13px;
+        position: relative;
+        top: 5px;
+}
+.fa-hourglass-3:before {
+        font-size: 12px;
+        position: relative;
+        top: 5px;
+}
 
 /*Menu Aplicaciones*/
 .transporte-app-planificador {
@@ -91,12 +101,15 @@
 .transporte-app-especialista {
     background-image : url(/images/transporte-app-especialista.png) !important;
 }
-.transporte-app-tecnico {
+/*.transporte-app-tecnico {
     background-image : url(/images/transporte-app-tecnico.png) !important;
-}
+}*/
 /*.admin-app {*/
     /*background-image : url(/images/admin-app.png) !important;*/
 /*}*/
+.transporte-app-tecnico {
+    background-image : url(/images/tecnico.png) !important;
+}
 
 /*Aplicaciones*/
 .fa-unlock:before {
@@ -115,4 +128,21 @@
     font-size: 15px;
     position: relative;
     top: 4px;
+}
+
+
+.en-tiempo .x-change-cell {
+    background-color: #8dbfff;
+    color: #060c80;
+}
+.fuera-tiempo .x-change-cell {
+    background-color: #ff9d9d;
+    color: #ca2826;
+    font-weight: bold;
+}
+
+.parqueo-tiempo .x-parqueo-cell {
+    background-color: #88d9af;
+    color: #000000;
+    font-weight: bold;
 }

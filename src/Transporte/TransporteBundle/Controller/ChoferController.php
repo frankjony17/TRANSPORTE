@@ -49,7 +49,7 @@ class ChoferController extends Controller
             }
             return new Response('Unico');
         }
-        throw $this->createNotFoundException('Esta acción no esta permitida.');
+        throw $this->createNotFoundException('Esta acción no está permitida.');
     }
 
     /**

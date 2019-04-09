@@ -107,10 +107,11 @@ class VehiculoController extends Controller
         {    
             $em = $this->getDoctrine()->getManager();
            
-            foreach (json_decode($rq->get("Ids")) as $id)
-            {
+            foreach (json_decode($rq->get("Ids")) as $id) {
                 $entity = $em->getRepository('TransporteBundle:Vehiculo')->find($id);
-                $entity->addSituacionOperativa($em->getRepository('TransporteBundle:SituacionOperativa')->find($rq->get("IdSO")));
+                $so = $em->getRepository('TransporteBundle:SituacionOperativa')->find($rq->get("IdSO"));
+                $entity->removeSituacionOperativa($so);
+                $entity->addSituacionOperativa($so);
                 $em->persist($entity);
             }
             return new Response($em->flush()); 

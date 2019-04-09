@@ -51,6 +51,10 @@ Ext.define('CDT.view.transporte.especialista.chofer_vehiculo.ChoferVehiculoGrid'
                 text: 'ChoferId',
                 dataIndex: 'chofer_id',
                 hidden: true
+            },{
+                text: 'VehiculoId',
+                dataIndex: 'vehiculo_id',
+                hidden: true
             }
         ];
         // Articulos de topbar: barra superior

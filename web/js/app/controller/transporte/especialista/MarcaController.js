@@ -2,35 +2,25 @@
 Ext.define('CDT.controller.transporte.especialista.MarcaController', {
     extend: 'Ext.app.Controller',
 
-    views: [
-        'transporte.especialista.marca.MarcaGrid',
-        'transporte.especialista.marca.MarcaForm'
-    ],
-
-    init: function()
-    {
-        var me = this;
-
-        me.control({
+    control:{
             'marcaGrid': {
-                edit: me.edit,
+                edit: "edit",
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
                 afterrender: function (grid, eOpts) { var me = this; me.grid = grid; me.store = grid.store; }
             },
             'marcaGrid button[iconCls=fa fa-plus]': {
-                click: me.showMarca
+                click: "showMarca"
             },
             'marcaGrid button[iconCls=fa fa-times]': {
-                click: me.confirmRemuve
+                click: "confirmRemuve"
             },
             'marcaForm': {
-                afterrender: me.afterRenderWin
+                afterrender: "afterRenderWin"
             },
             // Formulario
             'marcaForm button[iconCls=fa fa-check-circle-o]': {
-                click: me.validateForm
+                click: "validateForm"
             }
-        });
     },
     loadStore: function () { var me = this; me.store.load(); },
     // Mostrar Windows Marca.
@@ -83,7 +73,7 @@ Ext.define('CDT.controller.transporte.especialista.MarcaController', {
                 }
             },
             failure: function () {
-                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
+                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, inténtelo más tarde.', 'error');
             }
         });
     },
@@ -113,7 +103,7 @@ Ext.define('CDT.controller.transporte.especialista.MarcaController', {
                 }
             },
             failure: function(){
-                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
+                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, inténtelo más tarde.', 'error');
             }
         });
     },
@@ -123,11 +113,11 @@ Ext.define('CDT.controller.transporte.especialista.MarcaController', {
         var me = this;
         if (me.grid.selModel.getCount() === 1)
         {
-            Ext.MessageBox.confirm('Confirmación', 'Desea eliminar el registro seleccionado?', me.remove, me);
+            Ext.MessageBox.confirm('Confirmación', '¿Desea eliminar el registro seleccionado?', me.remove, me);
         }
         else if (me.grid.selModel.getCount() > 1)
         {
-            Ext.MessageBox.confirm('Confirmación', 'Desea eliminar los registros seleccionados?', me.remove, me);
+            Ext.MessageBox.confirm('Confirmación', '¿Desea eliminar los registros seleccionados?', me.remove, me);
         } else {
             Ext.ex.MessageBox('Atención', 'Seleccione el o los registro que desea eliminar.', 'question');
         }

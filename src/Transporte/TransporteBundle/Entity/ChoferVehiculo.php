@@ -138,8 +138,9 @@ class ChoferVehiculo
         (
             'id' => $this->id,
             'permanente' => ($this->permanente) ? 'SI' : 'NO',
-            'chofer' => $this->getChofer()->getTrabajador()->getNombreApellidos(),
             'chofer_id' => $this->getChofer()->getId(),
+            'chofer' => $this->getChofer()->getTrabajador()->getNombreApellidos(),
+            'vehiculo_id' => $this->getVehiculo()->getId(),
             'vehiculo' => $this->getVehiculo()->getMatricula()->getChapa()
         );
     }

@@ -14,5 +14,5 @@ aplicaciones = [];
     aplicaciones.push({'text': 'Transporte (Planificador)', 'iconCls': 'transporte-app-planificador', 'id': 'transporte-app-planificador-id'});
 {% endif %}
 {% if is_granted('ROLE_TECNICO_TRANSPORTE') %}
-    aplicaciones.push({'text': 'Transporte (Operativo de Guardia)', 'iconCls': 'fa fa-tachometer', 'id': 'transporte-app-tecnico-id'});
+    aplicaciones.push({'text': 'Transporte (Operativo de Guardia)', 'iconCls': 'transporte-app-tecnico', 'id': 'transporte-app-tecnico-id'});
 {% endif %}

@@ -2,56 +2,45 @@
 Ext.define('CDT.controller.transporte.especialista.ChoferController', {
     extend: 'Ext.app.Controller',
 
-    views: [
-        'transporte.especialista.chofer.ChoferGrid',
-        'transporte.especialista.chofer.ChoferForm',
-        'transporte.especialista.chofer.ChangeHorarioParqueoForm'
-    ],
-
-    init: function()
-    {   
-        var me = this;
-        
-        me.control({
+    control:{
             'choferGrid': {
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
                 afterrender: function (grid, eOpts) { var me = this; me.grid = grid; me.store = grid.store; }
             },
             'choferGrid button[iconCls=fa fa-plus]': {
-                click: me.showChofer
+                click: "showChofer"
             },
             'choferGrid button[iconCls=fa fa-times]': {
-                click: me.confirmRemuve
+                click: "confirmRemuve"
             },
             'choferGrid button[iconCls=fa fa-pencil]': {
-                click: me.confirmEdit
+                click: "confirmEdit"
             },
             'choferGrid button[iconCls=fa fa-clock-o]': {
-                click: me.showChangeWindows
+                click: "showChangeWindows"
             },
             // Formulario
             'choferForm': {
-                afterrender: me.afterRenderWin
+                afterrender: "afterRenderWin"
             },
             'choferForm combobox[emptyText=Área]': {
-                select: me.filterTrabajador
+                select: "filterTrabajador"
             },
             'choferForm button[iconCls=fa fa-trash]': {
-                click: me.cleanComboArea
+                click: "cleanComboArea"
             },
             'choferForm button[action=save]': {
-                click: me.validateForm
+                click: "validateForm"
             },
             'choferForm combobox[name=trabajador]': {
-                select: function (cmb) { me.trabajadorId = cmb.value; }
+                select: function (cmb) { var me = this; me.trabajadorId = cmb.value; }
             },
             'choferForm button[iconCls=fa fa-pencil]': {
-                click: me.validateForm
+                click: "validateForm"
             },
             'changeHorarioParqueoForm button[text=Salvar]': {
-                click: me.validateChange
+                click: "validateChange"
             }
-        });
     },
     loadStore: function () { var me = this; me.store.load(); },
     // Mostrar Windows chofer.
@@ -140,10 +129,10 @@ Ext.define('CDT.controller.transporte.especialista.ChoferController', {
     cleanComponentesUnicosForm: function (value)
     {
         var me = this, lic = me.win.down('[name=licencia]');
-        if (value !== 'edit')
-        {
-            me.win.down('[name=trabajador]').setValue();
-        }
+        //if (value !== 'edit')
+        //{
+        //    me.win.down('[name=trabajador]').setValue();
+        //}
         lic.setValue();
         lic.markInvalid('Verifique que la licencia no exista!');
     },
@@ -185,7 +174,7 @@ Ext.define('CDT.controller.transporte.especialista.ChoferController', {
                         Ext.ex.msg('Creación OK', 'Operación realizada exitosamente.');
                         break;
                     case 'Unico':
-                        Ext.ex.MessageBox('Atención', 'Ya existe el chofer o el número de licencia, verifique las casillas en <b><span style="color:red;">rojo</span></b>.', 'question');
+                        Ext.ex.MessageBox('Atención', 'Ya existe el número de licencia, verifique la casilla en <b><span style="color:red;">rojo</span></b>.', 'question');
                         me.cleanComponentesUnicosForm();
                         break;
                     default:

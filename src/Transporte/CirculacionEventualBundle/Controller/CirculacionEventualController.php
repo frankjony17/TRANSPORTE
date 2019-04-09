@@ -7,7 +7,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 
-use Transporte\TransporteBundle\Entity\CirculacionEventual;
+use Transporte\CirculacionEventualBundle\Entity\CirculacionEventual;
 
 /**
  * @Route("circulacion_eventual/")
@@ -15,11 +15,21 @@ use Transporte\TransporteBundle\Entity\CirculacionEventual;
 class CirculacionEventualController extends Controller
 {
 	/**
-     * @Route("list")
+     * @Route("listordinaria")
      */
-    public function listAction()
+    public function listOrdinariaAction()
     {
         $data = $this->getDoctrine()->getManager()->getRepository('CirculacionEventualBundle:CirculacionEventual')->findVehiculosCirculacionOrdinaria($this->get('session')->get('unidad_organizativa_id'));
+        
+        return new Response('({"total":"'.count($data).'","data":'.json_encode($data).'})');
+    }
+
+    /**
+     * @Route("listextraordinaria")
+     */
+    public function listExtraOrdinariaAction()
+    {
+        $data = $this->getDoctrine()->getManager()->getRepository('CirculacionEventualBundle:CirculacionEventual')->findVehiculosCirculacionExtraOrdinaria($this->get('session')->get('unidad_organizativa_id'));
         
         return new Response('({"total":"'.count($data).'","data":'.json_encode($data).'})');
     }

@@ -35,7 +35,7 @@ Ext.define('CDT.view.transporte.especialista.area_parqueo.AreaParqueoForm', {
                 anchor: '100%',
                 maskRe: /[aA-zZ\ \áéíóúñÁÉÍÓÚÑ]/,
                 regex: /[aA-zZ]/,
-                maxLength: 43,
+                maxLength: 74,
                 allowBlank: false
             }, {
                 xtype: 'container',

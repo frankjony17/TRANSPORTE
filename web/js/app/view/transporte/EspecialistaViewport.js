@@ -88,7 +88,29 @@ Ext.define('CDT.view.transporte.EspecialistaViewport', {
             border: true,
             bodyStyle: 'background-image:url(../../images/portal/square.gif);',
             id: 'center-panel-id'
-        },{
+        },
+        //    {
+        //    //region: 'east',
+        //    //xtype : 'panel',
+        //    //bodyStyle: 'background-image:url(../../images/portal/square.gif);',
+        //    border: false,
+        //    width: 300,
+        //    style: {
+        //        "margin-top": '10px',
+        //        "margin-left": '450px',
+        //    },
+        //
+        //    items: [{
+        //         xtype: 'panel',
+        //         border: false,
+        //         html: '<br><b><center>'+
+        //         '<span style=" color: #777; font-weight:bold; font-size:16px; text-shadow: 0 2px 0 #eee;">'+
+        //         'Incidencias del Transporte:</span></center></b></br>'
+        //    },
+        //         Ext.create('CDT.view.transporte.especialista.charts.TransportePanel')
+        //    ]
+        //}
+            ,{
             region: 'south',
             id: 'south-panel-id',
             items: Ext.create('CDT.view.StatusBarPanel')

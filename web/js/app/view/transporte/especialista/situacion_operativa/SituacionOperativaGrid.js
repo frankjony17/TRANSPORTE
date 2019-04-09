@@ -32,7 +32,7 @@ Ext.define('CDT.view.transporte.especialista.situacion_operativa.SituacionOperat
                 xtype: 'textfield',
                 maskRe: /[aA-zZ\ \áéíóúñÁÉÍÓÚÑ]/,
                 regex: /[aA-zZ]/,
-                maxLength: 43,
+                maxLength: 75,
                 allowBlank: false
             }
         }, {
@@ -43,8 +43,7 @@ Ext.define('CDT.view.transporte.especialista.situacion_operativa.SituacionOperat
                 xtype: 'textfield',
                 maskRe: /[aA-zZ\áéíóúñÁÉÍÓÚÑ\ \.\,]/,
                 regex: /[aA-zZ]/,
-                maxLength: 118,
-                allowBlank: false
+                maxLength: 118
             }
         }];
         // Articulos de topbar: barra superior

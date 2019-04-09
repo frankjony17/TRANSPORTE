@@ -198,6 +198,12 @@
     color: #157fcc;
     font-size: 16px;
 }
+.fa-file-pdf-o:before{
+    content: "\f000";
+    color: #88d9af;
+    font-size: 14px;
+}
+
 .fa-question-circle:before {
     content: "\f000";
     color: red;
@@ -205,6 +211,9 @@
 }
 /**Form**/
 .fa-trash:before {
+    font-size: 16px;
+}
+.fa-trash-o:before {
     font-size: 16px;
 }
 .fa-ban:before {

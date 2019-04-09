@@ -24,7 +24,7 @@ class AreaParqueo
     /**
      * @var string
      *
-     * @ORM\Column(name="nombre", type="string", length=45, nullable=false)
+     * @ORM\Column(name="nombre", type="string", length=75, nullable=false)
      */
     private $nombre;
 

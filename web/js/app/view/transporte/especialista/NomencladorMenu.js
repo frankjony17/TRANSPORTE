@@ -45,9 +45,11 @@ Ext.define('CDT.view.transporte.especialista.NomencladorMenu', {
         text: 'Marca',
         iconCls: 'fa fa-medium',
         id: 'marca-id'
-    },"-",{
+    }
+    ,"-",{
         text: 'Agente',
         iconCls: 'fa fa-male',
         id: 'agente-id'
-    }]
+    }
+    ]
 });

@@ -5,7 +5,7 @@ Ext.define('CDT.view.transporte.especialista.chofer_vehiculo.ChoferVehiculoForm'
     xtype: 'chofervehiculoForm',
 
     title: 'Adicionar chofer-vehículo',
-    iconCls: 'fa fa-newspaper-o',
+    // iconCls: 'fa fa-newspaper-o',
     layout: 'fit',
     buttonAlign: 'center',
     width: 700,
@@ -18,7 +18,8 @@ Ext.define('CDT.view.transporte.especialista.chofer_vehiculo.ChoferVehiculoForm'
         var me = this;
         
         me.choferStore = Ext.create('CDT.store.transporte.especialista.ChoferStore');
-        
+        me.vehiculoStore = Ext.create('CDT.store.transporte.especialista.VehiculoStore');
+
         me.items = [
         {
             xtype: 'form',
@@ -30,59 +31,116 @@ Ext.define('CDT.view.transporte.especialista.chofer_vehiculo.ChoferVehiculoForm'
             },
             items: [{
                 xtype: 'fieldset',
-                collapsible: true,
-                collapsed: true,
-                title: 'Filtrar por Área:',
-                layout: 'hbox',
-                id: 'chofer-fieldset-area',
                 items: [{
-                    xtype: 'container',
-                    flex: 1,
-                    border: false,
-                    layout: 'anchor',
+                    xtype: 'fieldset',
+                    collapsible: true,
+                    collapsed: true,
+                    title: 'Filtrar los choferes por área:',
+                    layout: 'hbox',
+                    id: 'chofer-fieldset-area',
                     items: [{
-                        xtype: 'combobox',
-                        emptyText: 'Área',
-                        store: Ext.create('CDT.store.transporte.especialista.ChoferStore'),
-                        queryMode: 'local',
-                        displayField: 'area', 
-                        anchor: '99%',
-                        editable: false
+                        xtype: 'container',
+                        flex: 1,
+                        border: false,
+                        layout: 'anchor',
+                        items: [{
+                            xtype: 'combobox',
+                            emptyText: 'Área del Chofer',
+                            store: Ext.create('CDT.store.admin.AreaStore'),
+                            queryMode: 'local',
+                            displayField: 'nombre',
+                            anchor: '99%',
+                            editable: false
+                        }]
+                    },{
+                        xtype: 'button',
+                        iconCls: 'fa fa-trash',
+                        anchor: '100%',
+                        disabled: true
                     }]
                 },{
-                    xtype: 'button',
-                    iconCls: 'fa fa-trash',
-                    anchor: '100%',
-                    disabled: true
+                    xtype: 'fieldset',
+                    layout: 'hbox',
+                    items: [{
+                        xtype: 'container',
+                        flex: 3,
+                        border: false,
+                        layout: 'anchor',
+                        items: [{
+                            xtype: 'combobox',
+                            fieldLabel: 'Chofer',
+                            emptyText: 'Nombre y Apellidos',
+                            name: 'chofer',
+                            store: me.choferStore,
+                            queryMode: 'local',
+                            displayField: 'trabajador',
+                            valueField: 'id',
+                            typeAhead: true,
+                            selectOnFocus: true,
+                            anchor: '98%',
+                            editable: false,
+                            allowBlank: false
+                        }]
+                    }]
                 }]
             },{
                 xtype: 'fieldset',
-                layout: 'hbox',
                 items: [{
-                    xtype: 'container',
-                    flex: 3,
-                    border: false,
-                    layout: 'anchor',
+                    xtype: 'fieldset',
+                    collapsible: true,
+                    collapsed: true,
+                    title: 'Filtrar los vehículos por área:',
+                    layout: 'hbox',
+                    id: 'vehiculo-fieldset-area',
                     items: [{
-                        xtype: 'combobox', 
-                        fieldLabel: 'Chofer',
-                        emptyText: 'Nombre y Apellidos',
-                        name: 'trabajador',
-                        store: me.choferStore,
-                        queryMode: 'local',
-                        displayField: 'trabajador',
-                        valueField: 'id',
-                        typeAhead: true,
-                        selectOnFocus: true,
-                        anchor: '98%',
-                        editable: false,
-                        allowBlank: false
+                        xtype: 'container',
+                        flex: 1,
+                        border: false,
+                        layout: 'anchor',
+                        items: [{
+                            xtype: 'combobox',
+                            emptyText: 'Área del Vehículo',
+                            store: Ext.create('CDT.store.admin.AreaStore'),
+                            queryMode: 'local',
+                            displayField: 'nombre',
+                            anchor: '99%',
+                            editable: false
+                        }]
+                    },{
+                        xtype: 'button',
+                        iconCls: 'fa fa-trash-o',
+                        anchor: '100%',
+                        disabled: true
                     }]
-                }]            
+                },{
+                    xtype: 'fieldset',
+                    layout: 'hbox',
+                    items: [{
+                        xtype: 'container',
+                        flex: 3,
+                        border: false,
+                        layout: 'anchor',
+                        items: [{
+                            xtype: 'combobox',
+                            fieldLabel: 'Vehículo',
+                            emptyText: 'Matrícula',
+                            name: 'vehiculo',
+                            store: me.vehiculoStore,
+                            queryMode: 'local',
+                            displayField: 'chapa',
+                            valueField: 'id',
+                            typeAhead: true,
+                            selectOnFocus: true,
+                            anchor: '98%',
+                            editable: false,
+                            allowBlank: false
+                        }]
+                    }]
+                }]
             },{
                 xtype: 'fieldset',
                 collapsible: true,
-                title: 'Otros:',
+                title: 'Otro:',
                 layout: 'hbox',
                 items: [{
                     xtype: 'container',

@@ -1,7 +1,7 @@
 
-Ext.define('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventualGrid', {
+Ext.define('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventualExtraordinariaGrid', {
     extend : 'Ext.grid.Panel',
-    xtype  : 'circulacioneventualGrid',
+    xtype  : 'circulacioneventualextraordinariaGrid',
 
     width: '100%',
     border: false,
@@ -21,7 +21,7 @@ Ext.define('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventual
 
         me.myData = [];
         // Store
-        me.store = Ext.create('CDT.store.transporte.tecnico.CirculacionEventualStore');
+        me.store = Ext.create('CDT.store.transporte.tecnico.CirculacionEventualExtraordinariaStore');
         // Modelo de columna
         me.columns = [{
             xtype : 'rownumberer',
@@ -35,40 +35,46 @@ Ext.define('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventual
             hidden: true
         },{
             text : 'Fecha',
+            flex: 1,
             columns: [{
-                text: 'Fecha inicial',
+                text: 'Inicial',
                 dataIndex: 'fecha_inicial',
-                flex: 1,
+                align: 'center',
                 editor: {
                     xtype: 'datefield',
-                    format: 'Y-m-d'
+                    format: 'd-m-Y',
+                    editable: false
                 }
             }, {
-                text: 'Fecha final',
+                text: 'Final',
                 dataIndex: 'fecha_final',
-                flex: 1,
+                align: 'center',
                 editor: {
                     xtype: 'datefield',
-                    format: 'Y-m-d'
+                    format: 'd-m-Y',
+                    editable: false
                 }
             }]
         },{
             text : 'Hora',
+            flex: 1,
             columns: [{
-                text: 'Hora inicial',
+                text: 'Inicial',
                 dataIndex: 'hora_inicial',
-                flex: 1,
+                align: 'center',
                 editor: {
-                    xtype: 'timefield',
-                    format: 'H:i:s'
+                    xtype: 'textfield',
+                    maskRe: /[\d\-]/,
+                    regex: /^\d{4}$/,
                 }
             }, {
-                text: 'Hora final',
+                text: 'Final',
                 dataIndex: 'hora_final',
-                flex: 1,
+                align: 'center',
                 editor: {
-                    xtype: 'timefield',
-                    format: 'H:i:s'
+                    xtype: 'textfield',
+                    maskRe: /[\d\-]/,
+                    regex: /^\d{4}$/,
                 }
             }]
         },{
@@ -115,31 +121,25 @@ Ext.define('CDT.view.transporte.tecnico.circulacion_eventual.CirculacionEventual
                 sortable: true
             }]                
         },{
-            text: 'Aprobado',
+            text: '<img src=\"/images/help.png\"/>',
+            xtype: 'checkcolumn',
+            tooltip: 'Si está aprobado o no',
             dataIndex: 'aprobado',
             align: 'center',
-            flex: 1,
-            hidden: true,
-            renderer: function(val) {
-                if ( val === 'SI' ) {
-                    return '<img src=\"/images/transporte/flag-si.png\"/>';
-                } else {
-                    return '<img src=\"/images/transporte/flag-no.png\"/>';
-                }
-            }
+            editor: {
+                xtype: 'checkbox'
+            },
+            flex: 1
         },{
-            text: 'Pendiente',
+            text: '<img src=\"/images/help.png\"/>',
+            xtype: 'checkcolumn',
+            tooltip: 'Si está pendiente o no',
             dataIndex: 'pendiente',
             align: 'center',
-            flex: 1,
-            hidden: true,
-            renderer: function(val) {
-                if ( val === 'SI' ) {
-                    return '<img src=\"/images/transporte/flag-si.png\"/>';
-                } else {
-                    return '<img src=\"/images/transporte/flag-no.png\"/>';
-                }
-            }
+            editor: {
+                xtype: 'checkbox'
+            },
+            flex: 1
         },{
             text: 'Tipo circulación',
             dataIndex: 'circulacion_eventual_tipo',

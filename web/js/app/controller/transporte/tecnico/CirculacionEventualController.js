@@ -3,7 +3,14 @@ Ext.define('CDT.controller.transporte.tecnico.CirculacionEventualController', {
     extend: 'Ext.app.Controller',
 
     control: {
-            'circulacioneventualGrid': {
+            'circulacioneventualordinariaGrid': {
+                //edit: me.edit,
+                // Mantiene el grid en una altura de acuerdo al navegador
+                resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
+                // Cuando el Grid es renderiado
+                afterrender: function (grid, eOpts) { var me = this; me.grid = grid; me.store = grid.store; }
+            },
+            'circulacioneventualextraordinariaGrid': {
                 //edit: me.edit,
                 // Mantiene el grid en una altura de acuerdo al navegador
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },

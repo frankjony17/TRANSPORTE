@@ -2,35 +2,25 @@
 Ext.define('CDT.controller.transporte.especialista.VehiculoTipoController', {
     extend: 'Ext.app.Controller',
 
-    views: [
-        'transporte.especialista.vehiculo_tipo.VehiculoTipoGrid',
-        'transporte.especialista.vehiculo_tipo.VehiculoTipoForm'
-    ],
-
-    init: function()
-    {
-        var me = this;
-
-        me.control({
+    control:{
             'vehiculotipoGrid': {
-                edit: me.edit,
+                edit: "edit",
                 resize: function (grid) { grid.setHeight(Ext.ex.height('south-panel-id', 50)); },
                 afterrender: function (grid, eOpts) { var me = this; me.grid = grid; me.store = grid.store; }
             },
             'vehiculotipoGrid button[iconCls=fa fa-plus]': {
-                click: me.showVehiculoTipo
+                click: "showVehiculoTipo"
             },
             'vehiculotipoGrid button[iconCls=fa fa-times]': {
-                click: me.confirmRemuve
+                click: "confirmRemuve"
             },
             'vehiculotipoForm': {
-                afterrender: me.afterRenderWin
+                afterrender: "afterRenderWin"
             },
             // Formulario
             'vehiculotipoForm button[iconCls=fa fa-check-circle-o]': {
-                click: me.validateForm
+                click: "validateForm"
             }
-        });
     },
     loadStore: function () { var me = this; me.store.load(); },
     // Mostrar Windows Vehiculo Tipo.
@@ -74,7 +64,7 @@ Ext.define('CDT.controller.transporte.especialista.VehiculoTipoController', {
                         form.reset();
                         break;
                     case 'Unico':
-                        Ext.ex.MessageBox('Atención', 'Ya existe el Tipo de Vehiculo: <b>'+record['Nombre']+'</b>', 'question');
+                        Ext.ex.MessageBox('Atención', 'Ya existe el Tipo de Vehículo: <b>'+record['Nombre']+'</b>', 'question');
                         form.reset();
                         break;
                     default:
@@ -83,7 +73,7 @@ Ext.define('CDT.controller.transporte.especialista.VehiculoTipoController', {
                 }
             },
             failure: function () {
-                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
+                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, inténtelo más tarde.', 'error');
             }
         });
     },
@@ -104,7 +94,7 @@ Ext.define('CDT.controller.transporte.especialista.VehiculoTipoController', {
                         me.loadStore();
                         break;
                     case 'Unico':
-                        Ext.ex.MessageBox('Atención', 'Ya existe el Tipo de Vehiculo: <b>'+context.record.get('nombre')+'</b>', 'question');
+                        Ext.ex.MessageBox('Atención', 'Ya existe el Tipo de Vehículo: <b>'+context.record.get('nombre')+'</b>', 'question');
                         me.loadStore();
                         break;
                     default:
@@ -113,7 +103,7 @@ Ext.define('CDT.controller.transporte.especialista.VehiculoTipoController', {
                 }
             },
             failure: function(){
-                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, intentelo mas tarde.', 'error');
+                Ext.ex.MessageBox('Error','No se pudo conectar con el servidor, inténtelo más tarde.', 'error');
             }
         });
     },
@@ -123,11 +113,11 @@ Ext.define('CDT.controller.transporte.especialista.VehiculoTipoController', {
         var me = this;
         if (me.grid.selModel.getCount() === 1)
         {
-            Ext.MessageBox.confirm('Confirmación', 'Desea eliminar el registro seleccionado?', me.remove, me);
+            Ext.MessageBox.confirm('Confirmación', '¿Desea eliminar el registro seleccionado?', me.remove, me);
         }
         else if (me.grid.selModel.getCount() > 1)
         {
-            Ext.MessageBox.confirm('Confirmación', 'Desea eliminar los registros seleccionados?', me.remove, me);
+            Ext.MessageBox.confirm('Confirmación', '¿Desea eliminar los registros seleccionados?', me.remove, me);
         } else {
             Ext.ex.MessageBox('Atención', 'Seleccione el o los registro que desea eliminar.', 'question');
         }
